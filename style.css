@@ -287,3 +287,31 @@ margin-left: 150px;
   text-decoration: none;
   list-style: none;
 }
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+.footer-logo img{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.footer-terms a{
+  color: #FFF;
+  text-decoration: none;
+  gap: 5px;
+  text-align: center;
+  margin-left: 120px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.footer-end{
+  color: #FFF;
+  text-align: center;
+}
+.footer-img img{
+  width: 130px;
+height: 80px;
+}
