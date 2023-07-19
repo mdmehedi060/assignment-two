@@ -219,7 +219,7 @@ background: #FFF;
 .logo-img:hover{
 border: 1px solid rebeccapurple;
 }
-button{
+.btn-logo{
   text-align: center;
   background-color: #FFF;
   
@@ -228,7 +228,7 @@ button{
   align-items: center;
 border: #FFF;
 }
-button:hover{
+.btn-logo:hover{
   border: 1px solid green;
   border-radius: 30px;
   width: 90%;
