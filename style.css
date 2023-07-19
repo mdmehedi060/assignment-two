@@ -266,7 +266,14 @@ font-weight: 400;
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 200px;
+  
+}
+.footer-title{
+  font-family: Work Sans;
+font-size: 55px;
+font-weight: 700;
+color: #FF42A5;
 }
 .footer-img p{
   font-family: Work Sans;
@@ -312,6 +319,6 @@ margin-left: 150px;
   text-align: center;
 }
 .footer-img img{
-  width: 130px;
-height: 80px;
+  width: 160px;
+height: 120px;
 }

@@ -7,6 +7,59 @@
   .nav-container{
     flex-direction: column;
   }
+  .item-container{
+    flex-direction: column;
+  width: 50%;
+  padding: 20px;
+}
+.banner-container{
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+}
+.img-banner img{
+  width: 100%;
+  /* height: 50%; */
+  padding: 20px;
+}
+.banner-content p{
+  padding: 20px;
+}
+.btn-banner{
+  margin-left: 10px;
+}
+.videos-container{
+  width: 100%;
+  align-items: center;
+}
+.video-img{
+flex-direction: column;
+width: 100%;
+text-align: center;
+
+}
+.video-content h2,.nav-gamer{
+  width: 100%;
+ font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+.video-content p{
+font-size: 10px;
+font-weight: 300;
+line-height: 30px;
+}
+.download-container{
+  flex-direction: column;
+ 
+}
+.install-img {
+  flex-direction: column;
+width: 25%;
+text-align: center;
+}
+
+
 }
 
 @media screen and (max-width:425px){
@@ -69,16 +122,20 @@ line-height: 30px;
   flex-direction: column;
  
 }
-.install-img{
+.install-img {
   flex-direction: column;
 width: 25%;
 text-align: center;
 }
 .logo-container{
-flex-direction: column;
-  grid-template-columns: repeat(1, 3fr);
+flex-direction: grid;
+  grid-template-columns: repeat (3, 1fr);
 }
-
+.footer-container{
+  width: 100%;
+  text-align: center;
+  margin-left: 100px;
+}
 }
   
 
