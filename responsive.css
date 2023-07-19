@@ -74,6 +74,10 @@ line-height: 30px;
 width: 25%;
 text-align: center;
 }
+.logo-container{
+flex-direction: column;
+  grid-template-columns: repeat(1, 3fr);
+}
 
 }
   
