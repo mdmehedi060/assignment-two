@@ -259,4 +259,31 @@ font-weight: 400;
   height: 500px;
   width: 1000px;
   background-color: black;
+  margin-top: 100px;
+}
+.footer-img{
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+.footer-img p{
+  font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+}
+.footer-list{
+  display: inline-flex;
+padding: 10px;
+align-items: center;
+justify-content: center;
+gap: 60px;
+color: #FFF;
+margin-left: 150px;
+  
+}
+.footer-list li{
+  text-decoration: none;
+  list-style: none;
 }
